@@ -1,5 +1,8 @@
-function CountToTEn(Start){
-    let Start = 5;
-    for(Start=5, Start <= 10, i++ );
-}
-console.log(CountToTEn);
+Tugas_Function.js
+const CountToTen = (Start) => {
+    const  hitung = Start + '' + 1; Start <= 10;
+    console.log(Start);
+    return hitung;
+};
+
+export default CountToTen;
