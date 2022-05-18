@@ -1,49 +1,42 @@
-class Tiger {
-    isDangerous = True;
-    energy = 100;
-    rr = 'Roarrr'
-    constructor(name,height,weight) {
+class Tiger{
+
+        isDangerous = 'True';
+        energy = 100;
+        rr = 'Roarrrrr';
+    }
+
+    function Const(name,height,weight){
         this.name = name;
         this.height = height;
         this.weight = weight;
     }
-    die() {
-       this.isDangerous = false;
-    }
-    angry() {
-        this.energy = 100;
+
+    var panggil = new Const('Irithel',150,40)
+
+
+    function roar() {
         return this.rr;
-        
+    };
+
+    function die (){
+        this.isDangerous = 'False';
     }
 
-    rest(hour) {
-        this.energy = (1 * hour) + this.energy;
-    }
-    
-}
-class Cat extends Tiger {
-    isDangerous = false;
-    energy = 10;
-    mm = 'meow'
+class cat extends Tiger {
     constructor(name,height,weight) {
         super(name,height,weight);
     }
-    angry() {
+    pet() {
+        this.isDangerous = 'False';
+    };
+    power() {
         this.energy = 10;
-        return this.mm;
-
+        return this.rr;
     }
-    die() {
-    this.isDangerous = false;
+    sound() {
+        this.power = 'meow';
     }
 
 }
- 
-const irithel = new Tiger('irithel' , '2' , '200');
-const nana = new Cat('nana' , '1' , '10');
-
-
-console.log(irithel.energy);
-
-console.log(nana);
-
+    
+   
