@@ -1,7 +1,7 @@
-tugas_class.js
 class Tiger {
     isDangerous = True;
     energy = 100;
+    rr = 'Roarrr'
     constructor(name,height,weight) {
         this.name = name;
         this.height = height;
@@ -11,7 +11,9 @@ class Tiger {
        this.isDangerous = false;
     }
     angry() {
-        this.energy = Roarr;
+        this.energy = 100;
+        return this.rr;
+        
     }
 
     rest(hour) {
@@ -22,11 +24,14 @@ class Tiger {
 class Cat extends Tiger {
     isDangerous = false;
     energy = 10;
+    mm = 'meow'
     constructor(name,height,weight) {
         super(name,height,weight);
     }
     angry() {
-        this.energy = meow;
+        this.energy = 10;
+        return this.mm;
+
     }
     die() {
     this.isDangerous = false;
@@ -38,8 +43,7 @@ const irithel = new Tiger('irithel' , '2' , '200');
 const nana = new Cat('nana' , '1' , '10');
 
 
-console.log(bambang.energy);
+console.log(irithel.energy);
 
-console.log(herman.angry());
+console.log(nana);
 
-herman.rest(2)
