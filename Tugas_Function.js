@@ -1,8 +1,8 @@
 Tugas_Function.js
-const CountToTen = (Start) => {
-    const  hitung = Start + '' + 1; Start <= 10;
-    console.log(Start);
-    return hitung;
-};
+const CountToTen = (start) => {
+var num = i;
+for(i = 0; i <= 10; i++);
+return num;
+}
 
-export default CountToTen;
+console.log(5);
