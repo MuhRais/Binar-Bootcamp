@@ -2,7 +2,7 @@ class Tiger{
 
         isDangerous = 'True';
         energy = 100;
-        rr = 'Roarrrrr';
+       
     }
 
     function Const(name,height,weight){
@@ -10,33 +10,28 @@ class Tiger{
         this.height = height;
         this.weight = weight;
     }
+    roar() {
+        return 'roarrr';
+    }
 
-    var panggil = new Const('Irithel',150,40)
-
-
-    function roar() {
-        return this.rr;
-    };
-
-    function die (){
+    die() {
         this.isDangerous = 'False';
     }
+}
 
 class cat extends Tiger {
     constructor(name,height,weight) {
         super(name,height,weight);
+            this.isDangerous = false;
+            energy = 10;
     }
-    pet() {
-        this.isDangerous = 'False';
-    };
-    power() {
-        this.energy = 10;
-        return this.rr;
-    }
-    sound() {
-        this.power = 'meow';
+    roar() {
+        return 'meow';
     }
 
 }
     
-   
+const macan = new Tiger('macan', '10m', '100kg');
+const kucing = new cat('kucing', '5m', '50kg');
+
+console.log(kucing);
