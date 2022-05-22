@@ -1,8 +1,10 @@
 Tugas_Function.js
-const CountToTen = (start) => {
-var num = i;
-for(i = 0; i <= 10; i++);
-return num;
+function CountToTen = (start) => {
+const start ='';
+for(let i = start; i <= 10; i++) {
+ count+= 1 + ' ' ;
+}
+  return count;
 }
 
-console.log(5);
+console.log(CountToTEn(5));
