@@ -1,5 +1,5 @@
 class Tiger{
-        isDangerous = 'True';
+        isDangerous = True;
         energy = 100;   
     }
 
@@ -13,7 +13,7 @@ class Tiger{
     }
 
     die() {
-        this.isDangerous = 'False';
+        this.isDangerous = false;
     }
 }
 
