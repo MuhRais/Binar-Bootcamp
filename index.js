@@ -3,10 +3,6 @@ const app = express();
 
 const PORT = 3000;
 
-app.get('/', (req, res) => {
-    res.status(200).json({msg : 'berhasil menambahkan produk'});
-})
-
 app.get('/product', (req, res) => {
     res.status(200).json([
                 {
@@ -49,10 +45,6 @@ app.post('/', (req, res) => {
 
 app.put('/', (req, res) => {
     res.send({msg :'berhasil mengubah product'});
-})
-
-app.patch('/', (req, res) => {
-    res.send('success post to localhost');
 })
 
 app.delete('/', (req, res) => {
