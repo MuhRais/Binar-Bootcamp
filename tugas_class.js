@@ -1,8 +1,6 @@
 class Tiger{
-
         isDangerous = 'True';
-        energy = 100;
-       
+        energy = 100;   
     }
 
     constructor(name,height,weight){
@@ -23,7 +21,7 @@ class cat extends Tiger {
     constructor(name,height,weight) {
         super(name,height,weight);
             this.isDangerous = false;
-            energy = 10;
+            this.energy = 10;
     }
     roar() {
         return 'meow';
