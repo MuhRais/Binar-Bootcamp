@@ -28,7 +28,6 @@ class cat extends Tiger {
     roar() {
         return 'meow';
     }
-
 }
     
 const macan = new Tiger('macan', '10m', '100kg');
