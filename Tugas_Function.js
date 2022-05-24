@@ -7,4 +7,5 @@ for(let i = start; i <= 10; i++) {
   return count;
 }
 
+
 console.log(CountToTEn(5));
